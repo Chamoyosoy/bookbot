@@ -18,4 +18,6 @@ def get_characters(a):
             counter[char] = 1
     return counter
 
-
+def sort_characters(chars):
+    sort_char = dict(sorted(chars.items()))
+    return sort_char
