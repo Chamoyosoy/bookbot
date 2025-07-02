@@ -8,6 +8,7 @@ def get_num_words(content):
     words = content.split()
     return len(words)
 
+# count number of times a characters apear in text
 def get_characters(a):
     text = a.lower()
     counter = {}
@@ -18,6 +19,7 @@ def get_characters(a):
             counter[char] = 1
     return counter
 
+# sort characters in alphabetical 
 def sort_characters(chars):
     sort_char = dict(sorted(chars.items()))
     return sort_char
